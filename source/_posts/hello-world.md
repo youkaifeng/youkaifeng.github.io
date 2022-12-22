@@ -36,3 +36,19 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '', // 可选。默认为 location.href
+  owner: 'youkaifeng',
+  repo: 'youkaifeng.github.io',
+  oauth: {
+    client_id: 'd03a746f0dd46993fd4b',
+    client_secret: '026a57c8c620a16c70bb232b7c84eb17f14a94a9',
+  },
+})
+gitment.render('container')
+</script>
