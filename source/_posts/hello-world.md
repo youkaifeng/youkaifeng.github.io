@@ -43,7 +43,7 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 <script>
 var gitment = new Gitment({
   id: '', // 可选。默认为 location.href
-  owner: 'youkaifeng',
+  owner: '27139553',
   repo: 'youkaifeng.github.io',
   oauth: {
     client_id: 'd03a746f0dd46993fd4b',
