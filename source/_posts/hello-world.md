@@ -46,8 +46,8 @@ var gitment = new Gitment({
   owner: 'youkaifeng',
   repo: 'youkaifeng.github.io',
   oauth: {
-    client_id: 'd03a746f0dd46993fd4b',
-    client_secret: '026a57c8c620a16c70bb232b7c84eb17f14a94a9',
+    client_id: 'd25d2a6553f2fcd0c4cd',
+    client_secret: 'c08771a9fec54d35243d046766c79064a8db56a2',
   },
 })
 gitment.render('container')
