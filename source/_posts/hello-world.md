@@ -50,7 +50,7 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
     id: location.pathname,      // Ensure uniqueness and len
     language:'zh-CN', // 语言
     distractionFreeMode: false,  // Facebook-like distraction
-    proxy: 'https://github.com/login/oauth/access_token',
+    proxy: 'https://vercel.prohibitorum.top/github_access_token',
   })
   gitalk.render('gitalk-container')
 </script>
