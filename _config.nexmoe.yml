@@ -125,7 +125,7 @@ slotHead: ''
 #     <img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>'
 
 # 评论框插槽
-slotComment: 'gitment'
+# slotComment: 'gitment'
 
 slotCopyright: '<strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可'
 
