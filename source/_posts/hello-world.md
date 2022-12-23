@@ -42,12 +42,13 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 <script>
   var gitalk = new Gitalk({
-    clientID: 'd25d2a6553f2fcd0c4cd',
-    clientSecret: 'c08771a9fec54d35243d046766c79064a8db56a2',
-    repo: 'youkaifeng.github.io',
+    clientID: 'fab417f36e83e1fa2d62',
+    clientSecret: '634ed3d47f92778bdb5c7fa833eded3dac79de93',
+    repo: 'gitalk-comments',
     owner: 'youkaifeng',
     admin:  ['youkaifeng'],
     id: location.pathname,      // Ensure uniqueness and len
+    language:'zh-CN', // 语言
     distractionFreeMode: false  // Facebook-like distraction
   })
   gitalk.render('gitalk-container')
